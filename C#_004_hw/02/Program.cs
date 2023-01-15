@@ -1,6 +1,8 @@
 ﻿Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine($"Сумма всех цифр числа {number} равна: {sumOfDigits(number)}. ");
+
 int sumOfDigits(int numberForSum) {
     if (numberForSum < 0) {
         numberForSum *= -1;
@@ -16,4 +18,3 @@ int sumArray(char[] array) {
     return result;
 }
 
-Console.WriteLine($"Сумма всех цифр числа {number} равна: {sumOfDigits(number)}. ");
