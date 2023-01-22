@@ -25,7 +25,7 @@ void countColumns(int[,] array) {
         {
             count += array[row, column];
         }
-        counts[column] = Math.Round((Convert.ToDouble(count) / (array.GetLength(0) - 1)), 2);
+        counts[column] = Math.Round((Convert.ToDouble(count) / array.GetLength(0)), 2);
     }
     Console.WriteLine($"Среднее арифметическое элементов в каждом столбце: [ {String.Join(" | ", counts)} ]");
 }
