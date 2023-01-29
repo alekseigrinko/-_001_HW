@@ -12,7 +12,7 @@ int[,] getArray(int[,] array)
         }
         Console.WriteLine();
     }
-    Console.WriteLine("");
+    Console.WriteLine();
     return array;
 }
 
@@ -36,7 +36,7 @@ void sortArray(int[,] array)
         }
     }
     printArray(array);
-    Console.WriteLine("");
+    Console.WriteLine();
 }
 
 void printArray(int[,] array)

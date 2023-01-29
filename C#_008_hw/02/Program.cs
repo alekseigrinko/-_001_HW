@@ -12,7 +12,7 @@ int[,] getArray(int[,] array)
         }
         Console.WriteLine();
     }
-    Console.WriteLine("");
+    Console.WriteLine();
     return array;
 }
 
@@ -36,5 +36,5 @@ void getMinRow(int[,] array)
         }
     }
     Console.WriteLine($"Строка №{minRow} содержит наименьшую сумму элементов!");
-    Console.WriteLine("");
+    Console.WriteLine();
 }
